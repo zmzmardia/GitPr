@@ -29,5 +29,10 @@ public class Utility {
 	public void click() {
 		dr.findElement(By.id("email")).click();
 	}
+	
+	public void click(By by) {
+		dr.findElement(by).click();
+	}
+
 
 }
