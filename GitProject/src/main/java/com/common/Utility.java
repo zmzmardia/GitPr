@@ -33,6 +33,10 @@ public class Utility {
 	public void click(By by) {
 		dr.findElement(by).click();
 	}
+	
+	public void type(By by, String value) {
+		dr.findElement(by).sendKeys(value);
+	}
 
 
 }
