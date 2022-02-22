@@ -25,5 +25,8 @@ public class Utility {
 		dr.get(url);
 	}
 	
+	public void click() {
+		
+	}
 
 }
