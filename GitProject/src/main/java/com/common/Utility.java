@@ -8,6 +8,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class Utility {
 	public WebDriver dr;
@@ -32,6 +33,9 @@ public class Utility {
 	
 	public void click(By by) {
 		dr.findElement(by).click();
+	}
+	public void click(WebElement ele) {
+		ele.click();
 	}
 	
 	public void type(By by, String value) {
