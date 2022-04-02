@@ -41,6 +41,8 @@ public class Utility {
 	public void type(By by, String value) {
 		dr.findElement(by).sendKeys(value);
 	}
-
+	public void click2() {
+		dr.findElement(By.id("email")).click();
+	}
 
 }
